@@ -1,3 +1,7 @@
+# Disclamer
+**I am in no way responsible for what you do with this tool. Its purpose is to help you bypass HackTheBox & Vulnlab labs with AV&EDR.
+Do not use this tool for malicious purposes. It is an educational project.**
+
 # Loader C - Hell's Gate
 
 C port of the NIM dropper. Downloads an RC4-encrypted payload via HTTP, decrypts it in memory, and injects it into a suspended process using direct syscalls.
